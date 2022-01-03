@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        echo "building the wordpress application....."
+        echo "building the wordpress application!!!!"
       }
     }
      stage("test") {
       steps {
-        echo "testing the wordpress application------?????!!!!----"
+        echo "testing the wordpress application"
       }
     }
     stage("deploy") {
