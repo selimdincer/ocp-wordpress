@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        echo "building the wordpress application!!!!"
+        echo "building the wordpress application"
       }
     }
      stage("test") {
